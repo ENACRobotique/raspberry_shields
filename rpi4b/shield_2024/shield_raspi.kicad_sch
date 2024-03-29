@@ -285,248 +285,6 @@
 				)
 			)
 		)
-		(symbol "Connector:Conn_01x04_Pin"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x04_Pin"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x04, script generated"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x04_Pin_1_1"
-				(polyline
-					(pts
-						(xy 1.27 -5.08) (xy 0.8636 -5.08)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 0.8636 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0.8636 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.54) (xy 0.8636 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 0.8636 -4.953)
-					(end 0 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -5.08 180)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Connector:Conn_01x05_Pin"
 			(pin_names
 				(offset 1.016) hide)
@@ -2172,1067 +1930,6 @@
 				)
 			)
 		)
-		(symbol "ENAC_robotique:RASPBERRY_PI_4B_4GB"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -20.32 33.528 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "RASPBERRY_PI_4B_4GB"
-				(at -20.32 -33.02 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "RASPBERRY_PI_4B_4GB:MODULE_RASPBERRY_PI_4B_4GB"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MF" "Raspberry Pi"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MAXIMUM_PACKAGE_HEIGHT" "16 mm"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Package" "None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Price" "None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Check_prices" "https://www.snapeda.com/parts/RASPBERRY%20PI%204B/4GB/Raspberry+Pi/view-part/?ref=eda"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "STANDARD" "Manufacturer Recommendations"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "PARTREV" "4"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/RASPBERRY%20PI%204B/4GB/Raspberry+Pi/view-part/?ref=snap"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MP" "RASPBERRY PI 4B/4GB"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Description_1" "\nBCM2711 Raspberry Pi 4 Model B 4GB - ARM® Cortex®-A72 MPU Embedded Evaluation Board\n"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MANUFACTURER" "Raspberry Pi"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Availability" "Not in stock"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "SNAPEDA_PN" "RASPBERRY PI 4B/4GB"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "RASPBERRY_PI_4B_4GB_0_0"
-				(rectangle
-					(start -20.32 -30.48)
-					(end 20.32 33.02)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin power_in line
-					(at 25.4 27.94 180)
-					(length 5.08)
-					(name "3V3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 25.4 17.78 180)
-					(length 5.08)
-					(name "GPIO15/RXD0"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -25.4 15.24 0)
-					(length 5.08)
-					(name "GPIO17/GPIO_GEN0"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -25.4 10.16 0)
-					(length 5.08)
-					(name "GPIO18/GPIO_GEN1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -25.4 12.7 0)
-					(length 5.08)
-					(name "GPIO27/GPIO_GEN2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 25.4 -27.94 180)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -25.4 7.62 0)
-					(length 5.08)
-					(name "GPIO22/GPIO_GEN3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -25.4 5.08 0)
-					(length 5.08)
-					(name "GPIO23/GPIO_GEN4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 25.4 27.94 180)
-					(length 5.08)
-					(name "3V3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "17"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -25.4 2.54 0)
-					(length 5.08)
-					(name "GPIO24/GPIO_GEN5"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "18"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -25.4 -12.7 0)
-					(length 5.08)
-					(name "GPIO10/SPI_MOSI"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "19"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 25.4 30.48 180)
-					(length 5.08)
-					(name "5V"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 25.4 -27.94 180)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "20"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -25.4 -15.24 0)
-					(length 5.08)
-					(name "GPIO9/SPI_MISO"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "21"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -25.4 0 0)
-					(length 5.08)
-					(name "GPIO25/GPIO_GEN6"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "22"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -25.4 -10.16 0)
-					(length 5.08)
-					(name "GPIO11/SPI_SCLK"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "23"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -25.4 -5.08 0)
-					(length 5.08)
-					(name "GPIO8/~{SPI_CE0}"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "24"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 25.4 -27.94 180)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "25"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -25.4 -7.62 0)
-					(length 5.08)
-					(name "GPIO7/~{SPI_CE1}"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "26"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -25.4 -20.32 0)
-					(length 5.08)
-					(name "ID_SD"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "27"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -25.4 -22.86 0)
-					(length 5.08)
-					(name "ID_SC"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "28"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 25.4 12.7 180)
-					(length 5.08)
-					(name "GPIO5"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "29"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -25.4 25.4 0)
-					(length 5.08)
-					(name "GPIO2/SDA1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 25.4 -27.94 180)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "30"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 25.4 10.16 180)
-					(length 5.08)
-					(name "GPIO6"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "31"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 25.4 7.62 180)
-					(length 5.08)
-					(name "GPIO12"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "32"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 25.4 5.08 180)
-					(length 5.08)
-					(name "GPIO13"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "33"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 25.4 -27.94 180)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "34"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 25.4 0 180)
-					(length 5.08)
-					(name "GPIO19"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "35"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 25.4 2.54 180)
-					(length 5.08)
-					(name "GPIO16"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "36"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 25.4 -7.62 180)
-					(length 5.08)
-					(name "GPIO26"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "37"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 25.4 -2.54 180)
-					(length 5.08)
-					(name "GPIO20"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "38"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 25.4 -27.94 180)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "39"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 25.4 30.48 180)
-					(length 5.08)
-					(name "5V"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 25.4 -5.08 180)
-					(length 5.08)
-					(name "GPIO21"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "40"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 25.4 -15.24 180)
-					(length 5.08)
-					(name "TR01"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "41"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 25.4 -12.7 180)
-					(length 5.08)
-					(name "TR00"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "42"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 25.4 -20.32 180)
-					(length 5.08)
-					(name "TR03"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "43"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 25.4 -17.78 180)
-					(length 5.08)
-					(name "TR02"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "44"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -25.4 22.86 0)
-					(length 5.08)
-					(name "GPIO3/SCL1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 25.4 -27.94 180)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -25.4 20.32 0)
-					(length 5.08)
-					(name "GPIO4/GPIO_GCKL"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 25.4 20.32 180)
-					(length 5.08)
-					(name "GPIO14/TXD0"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 25.4 -27.94 180)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 25.4 -25.4 180)
-					(length 5.08)
-					(name "SHIELD"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "S1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 25.4 -25.4 180)
-					(length 5.08)
-					(name "SHIELD"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "S2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 25.4 -25.4 180)
-					(length 5.08)
-					(name "SHIELD"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "S3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 25.4 -25.4 180)
-					(length 5.08)
-					(name "SHIELD"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "S4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "GND_1"
 			(power)
 			(pin_numbers hide)
@@ -3845,8 +2542,8 @@
 		(uuid 5751e602-08a3-43c4-afde-6ffd47d0e45b)
 	)
 	(rectangle
-		(start 156.21 77.47)
-		(end 161.29 116.84)
+		(start 68.58 121.92)
+		(end 113.03 137.16)
 		(stroke
 			(width 0)
 			(type default)
@@ -3913,12 +2610,12 @@
 	)
 	(text "TROUS"
 		(exclude_from_sim no)
-		(at 158.75 85.598 90)
+		(at 76.708 124.46 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "7e40717b-1d44-4692-a3e2-2f17612d0c42")
 	)
@@ -3941,6 +2638,50 @@
 			)
 		)
 		(uuid "d9f0ad6e-82fe-412d-8e8e-7282b59904f4")
+	)
+	(global_label "TXD4"
+		(shape input)
+		(at 139.7 111.76 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "00205e0c-8a80-4d39-aaf2-8bb580fcc33e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 147.3418 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RXD4"
+		(shape input)
+		(at 139.7 114.3 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "02076d5b-086a-4daf-8ab7-9516e5672c46")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 147.6442 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "VL53_2"
 		(shape input)
@@ -4032,7 +2773,7 @@
 	)
 	(global_label "RXD3"
 		(shape input)
-		(at 134.62 96.52 0)
+		(at 139.7 95.25 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4042,29 +2783,7 @@
 		)
 		(uuid "0ef3497f-592f-470e-a3f3-89add8ccad5c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 142.5642 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "TXD4"
-		(shape input)
-		(at 134.62 111.76 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "132183c6-7b5d-486f-b080-1a3de27445ab")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 142.2618 111.76 0)
+			(at 147.6442 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4384,7 +3103,7 @@
 	)
 	(global_label "TXD3"
 		(shape input)
-		(at 134.62 93.98 0)
+		(at 139.7 92.71 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4394,29 +3113,7 @@
 		)
 		(uuid "79129519-1340-4ac9-8a84-2e6f5f97fcfa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 142.2618 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "RXD4"
-		(shape input)
-		(at 134.62 114.3 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7dcd5830-1d52-4e52-8393-bfdb9732438d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 142.5642 114.3 0)
+			(at 147.3418 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5228,6 +3925,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 139.7 90.17 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "275d4742-dd26-4ef9-8468-372f531e1eb4")
+		(property "Reference" "#PWR032"
+			(at 135.89 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 146.05 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d6a2bd51-174f-4767-9d7b-4be454e5610b")
+		)
+		(instances
+			(project "shield_raspi"
+				(path "/e4abb759-29ce-48bd-9fdf-5b8f8ce52e5b"
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 200.66 69.85 90)
 		(unit 1)
@@ -5289,6 +4051,72 @@
 			(project "shield_raspi"
 				(path "/e4abb759-29ce-48bd-9fdf-5b8f8ce52e5b"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 139.7 87.63 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2997aacc-5ad7-4705-b6b3-8d2474e83d02")
+		(property "Reference" "#PWR020"
+			(at 135.89 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 143.51 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c3b7cd3e-db72-4739-af7d-a8d404156c53")
+		)
+		(instances
+			(project "shield_raspi"
+				(path "/e4abb759-29ce-48bd-9fdf-5b8f8ce52e5b"
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -5363,7 +4191,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 158.75 113.03 0)
+		(at 104.14 124.46 90)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -5372,7 +4200,7 @@
 		(fields_autoplaced yes)
 		(uuid "2e6c55d0-1166-442b-a900-2b64c5be9221")
 		(property "Reference" "H4"
-			(at 161.29 111.7599 0)
+			(at 102.8699 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5381,7 +4209,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 161.29 114.2999 0)
+			(at 105.4099 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5391,7 +4219,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 158.75 113.03 0)
+			(at 104.14 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5400,7 +4228,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 158.75 113.03 0)
+			(at 104.14 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5409,7 +4237,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 158.75 113.03 0)
+			(at 104.14 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5428,7 +4256,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 158.75 105.41 0)
+		(at 96.52 124.46 90)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -5437,7 +4265,7 @@
 		(fields_autoplaced yes)
 		(uuid "31e21d8f-2f8c-4839-b095-f1d2d9acc9ba")
 		(property "Reference" "H3"
-			(at 161.29 104.1399 0)
+			(at 95.2499 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5446,7 +4274,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 161.29 106.6799 0)
+			(at 97.7899 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5456,7 +4284,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 158.75 105.41 0)
+			(at 96.52 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5465,7 +4293,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 158.75 105.41 0)
+			(at 96.52 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5474,7 +4302,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 158.75 105.41 0)
+			(at 96.52 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5486,6 +4314,72 @@
 			(project "shield_raspi"
 				(path "/e4abb759-29ce-48bd-9fdf-5b8f8ce52e5b"
 					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 139.7 104.14 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4536d215-a225-4819-af7c-4fb36893988d")
+		(property "Reference" "#PWR029"
+			(at 146.05 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 143.51 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5c042290-9c77-40c8-9747-f44c06979a58")
+		)
+		(instances
+			(project "shield_raspi"
+				(path "/e4abb759-29ce-48bd-9fdf-5b8f8ce52e5b"
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -5557,16 +4451,33 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 134.62 91.44 90)
+		(lib_id "Connector:Conn_01x05_Pin")
+		(at 134.62 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "52f30fc8-85a2-4af6-9f6d-f3d5df8b015d")
-		(property "Reference" "#PWR018"
-			(at 140.97 91.44 0)
+		(fields_autoplaced yes)
+		(uuid "4ac4b1e4-8e35-41f9-9c93-a0c0fb030e92")
+		(property "Reference" "UART_4"
+			(at 135.255 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x05_Pin"
+			(at 135.255 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Molex:Molex_CLIK-Mate_502382-0570_1x05-1MP_P1.25mm_Vertical"
+			(at 134.62 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5574,17 +4485,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 138.43 91.44 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 134.62 91.44 0)
+		(property "Datasheet" "~"
+			(at 134.62 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5592,8 +4494,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 134.62 91.44 0)
+		(property "Description" "Generic connector, single row, 01x05, script generated"
+			(at 134.62 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5601,22 +4503,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 134.62 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+		(pin "4"
+			(uuid "7c9bf5ed-7e67-4f42-b495-01410b41d889")
 		)
 		(pin "1"
-			(uuid "8df682d1-4fe9-4b4a-9338-9f4fdcab3cee")
+			(uuid "92fdb123-9a98-4e48-8ded-818d4119341c")
+		)
+		(pin "5"
+			(uuid "1e41fe04-ee7a-4846-b754-b8ec53b1a754")
+		)
+		(pin "3"
+			(uuid "388d889d-0622-47bc-98f5-f0883ee8e74e")
+		)
+		(pin "2"
+			(uuid "4e49448a-991e-4083-8a63-b98096866854")
 		)
 		(instances
 			(project "shield_raspi"
 				(path "/e4abb759-29ce-48bd-9fdf-5b8f8ce52e5b"
-					(reference "#PWR018")
+					(reference "UART_4")
 					(unit 1)
 				)
 			)
@@ -5824,6 +4729,137 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 139.7 85.09 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "65b35287-e69f-452f-8cb1-43c2c17b2f5c")
+		(property "Reference" "#PWR019"
+			(at 146.05 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 143.51 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2994e3b3-a591-411c-bb42-6a0b1b652db9")
+		)
+		(instances
+			(project "shield_raspi"
+				(path "/e4abb759-29ce-48bd-9fdf-5b8f8ce52e5b"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 96.52 133.35 90)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "66b68e9f-a9d5-420f-a5c5-9b54852d2dff")
+		(property "Reference" "H7"
+			(at 95.2499 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 97.7899 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 96.52 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 96.52 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 96.52 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "shield_raspi"
+				(path "/e4abb759-29ce-48bd-9fdf-5b8f8ce52e5b"
+					(reference "H7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 200.66 64.77 270)
 		(unit 1)
@@ -6018,6 +5054,71 @@
 			(project "shield_raspi"
 				(path "/e4abb759-29ce-48bd-9fdf-5b8f8ce52e5b"
 					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 104.14 133.35 90)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7f56bafe-044a-44df-bc29-d6541c19fe6d")
+		(property "Reference" "H8"
+			(at 102.8699 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 105.4099 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 104.14 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 104.14 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 104.14 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "shield_raspi"
+				(path "/e4abb759-29ce-48bd-9fdf-5b8f8ce52e5b"
+					(reference "H8")
 					(unit 1)
 				)
 			)
@@ -6223,6 +5324,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 139.7 109.22 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8bef3b8b-ef7a-4af2-ab4a-a92ae31d59ef")
+		(property "Reference" "#PWR031"
+			(at 135.89 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 146.05 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6df774eb-57ed-4973-9019-76d6732a22cf")
+		)
+		(instances
+			(project "shield_raspi"
+				(path "/e4abb759-29ce-48bd-9fdf-5b8f8ce52e5b"
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x05_Pin")
 		(at 73.66 92.71 0)
 		(unit 1)
@@ -6300,6 +5466,137 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 139.7 106.68 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9593d564-d2c7-48ea-b436-8d4e1000169f")
+		(property "Reference" "#PWR030"
+			(at 135.89 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 143.51 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0206c5eb-df95-4c3e-868d-3f7681697142")
+		)
+		(instances
+			(project "shield_raspi"
+				(path "/e4abb759-29ce-48bd-9fdf-5b8f8ce52e5b"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 88.9 133.35 90)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "98c332de-c7c0-4735-8627-16843ca4dee0")
+		(property "Reference" "H6"
+			(at 87.6299 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 90.1699 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 88.9 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 88.9 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "shield_raspi"
+				(path "/e4abb759-29ce-48bd-9fdf-5b8f8ce52e5b"
+					(reference "H6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 200.66 100.33 90)
 		(unit 1)
@@ -6361,80 +5658,6 @@
 			(project "shield_raspi"
 				(path "/e4abb759-29ce-48bd-9fdf-5b8f8ce52e5b"
 					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x04_Pin")
-		(at 129.54 91.44 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a2dd3459-3f0d-4bbe-b78a-8cd05f19b935")
-		(property "Reference" "UART_3"
-			(at 130.175 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x04_Pin"
-			(at 130.175 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
-			(at 129.54 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 129.54 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 129.54 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "81b8188d-c7ff-4a50-85db-982a5d99f1c9")
-		)
-		(pin "1"
-			(uuid "944f62ee-b034-420f-8c28-e78202c97814")
-		)
-		(pin "4"
-			(uuid "5f4dad5f-cc88-4c3b-ad66-a7e261e1ea35")
-		)
-		(pin "3"
-			(uuid "deccfb77-a491-4b01-9448-7ddb176bd0cf")
-		)
-		(instances
-			(project "shield_raspi"
-				(path "/e4abb759-29ce-48bd-9fdf-5b8f8ce52e5b"
-					(reference "UART_3")
 					(unit 1)
 				)
 			)
@@ -6576,72 +5799,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 134.62 88.9 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ae9f0cc1-ccc5-4b57-b545-bcbbfbd160bc")
-		(property "Reference" "#PWR017"
-			(at 130.81 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 138.43 88.9 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 134.62 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 134.62 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 134.62 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d0b7fdbd-817e-4b02-a7c5-bfb32c21eff3")
-		)
-		(instances
-			(project "shield_raspi"
-				(path "/e4abb759-29ce-48bd-9fdf-5b8f8ce52e5b"
-					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 99.06 104.14 270)
 		(unit 1)
@@ -6701,72 +5858,6 @@
 			(project "shield_raspi"
 				(path "/e4abb759-29ce-48bd-9fdf-5b8f8ce52e5b"
 					(reference "#PWR023")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 134.62 106.68 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b55721cb-b028-462a-a4bb-330f53c6c192")
-		(property "Reference" "#PWR019"
-			(at 130.81 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 138.43 106.68 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 134.62 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 134.62 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 134.62 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fb9c239e-e934-4feb-a90e-1cce5f145b5b")
-		)
-		(instances
-			(project "shield_raspi"
-				(path "/e4abb759-29ce-48bd-9fdf-5b8f8ce52e5b"
-					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -7062,74 +6153,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 134.62 109.22 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c7bcb287-733d-4b99-ab1a-abca61c65bdc")
-		(property "Reference" "#PWR020"
-			(at 140.97 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 138.43 109.22 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 134.62 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 134.62 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 134.62 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "12e7bc94-fe31-4c16-8038-23b3a2661b80")
-		)
-		(instances
-			(project "shield_raspi"
-				(path "/e4abb759-29ce-48bd-9fdf-5b8f8ce52e5b"
-					(reference "#PWR020")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 158.75 90.17 0)
+		(at 81.28 124.46 90)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -7138,7 +6163,7 @@
 		(fields_autoplaced yes)
 		(uuid "d7d72750-4b14-4f18-928a-ea46fec1be14")
 		(property "Reference" "H1"
-			(at 161.29 88.8999 0)
+			(at 80.0099 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7147,7 +6172,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 161.29 91.4399 0)
+			(at 82.5499 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7157,7 +6182,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 158.75 90.17 0)
+			(at 81.28 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7166,7 +6191,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 158.75 90.17 0)
+			(at 81.28 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7175,7 +6200,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 158.75 90.17 0)
+			(at 81.28 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7193,43 +6218,33 @@
 		)
 	)
 	(symbol
-		(lib_id "ENAC_robotique:RASPBERRY_PI_4B_4GB")
-		(at 252.73 133.35 0)
+		(lib_id "Connector:Conn_01x05_Pin")
+		(at 134.62 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "dda805a7-e454-4f9c-a75b-66d544e1341e")
-		(property "Reference" "U1"
-			(at 252.73 95.25 0)
+		(uuid "e251a49c-0a91-45ea-8498-9a96bccdc777")
+		(property "Reference" "UART_3"
+			(at 135.255 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "RASPBERRY_PI_4B_4GB"
-			(at 252.73 97.79 0)
+		(property "Value" "Conn_01x05_Pin"
+			(at 135.255 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "ENAC_robotique:MODULE_RASPBERRY_PI_4B_4GB"
-			(at 252.73 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheets.raspberrypi.com/bcm2711/bcm2711-peripherals.pdf?_gl=1*1varbtl*_ga*NDYxMjQyMzI5LjE3MTE0NTk1MDc.*_ga_22FD70LWDS*MTcxMTQ1OTUwNi4xLjEuMTcxMTQ1OTY0MS4wLjAuMA.."
-			(at 252.73 133.35 0)
+		(property "Footprint" "Connector_Molex:Molex_CLIK-Mate_502382-0570_1x05-1MP_P1.25mm_Vertical"
+			(at 134.62 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7237,8 +6252,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 252.73 133.35 0)
+		(property "Datasheet" "~"
+			(at 134.62 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7246,284 +6261,34 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "Raspberry Pi"
-			(at 252.73 133.35 0)
+		(property "Description" "Generic connector, single row, 01x05, script generated"
+			(at 134.62 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 				(hide yes)
 			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "16 mm"
-			(at 252.73 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 252.73 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 252.73 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/RASPBERRY%20PI%204B/4GB/Raspberry+Pi/view-part/?ref=eda"
-			(at 252.73 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 252.73 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "4"
-			(at 252.73 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/RASPBERRY%20PI%204B/4GB/Raspberry+Pi/view-part/?ref=snap"
-			(at 252.73 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "RASPBERRY PI 4B/4GB"
-			(at 252.73 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "\nBCM2711 Raspberry Pi 4 Model B 4GB - ARM® Cortex®-A72 MPU Embedded Evaluation Board\n"
-			(at 252.73 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Raspberry Pi"
-			(at 252.73 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "Not in stock"
-			(at 252.73 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SNAPEDA_PN" "RASPBERRY PI 4B/4GB"
-			(at 252.73 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "21"
-			(uuid "be4a8760-0106-48e5-95aa-c262c919c9af")
-		)
-		(pin "16"
-			(uuid "1834acac-1f6b-4482-bf5a-0a54fe9ff67f")
-		)
-		(pin "22"
-			(uuid "78cccfe2-3a78-4de8-9478-772c9ba37eb9")
-		)
-		(pin "5"
-			(uuid "e1987663-4daf-457b-92dd-6e5ef3a4d0d0")
-		)
-		(pin "S4"
-			(uuid "aeb2dc74-1acb-45f1-8ff1-223776baa04d")
-		)
-		(pin "41"
-			(uuid "fdb632ec-12b0-4cee-b758-21c2740dc0f2")
-		)
-		(pin "13"
-			(uuid "5c9a80ac-9138-4920-9437-11155aed94f6")
-		)
-		(pin "6"
-			(uuid "8be40f4c-2104-49dc-a8e3-014971a90d95")
-		)
-		(pin "11"
-			(uuid "ff7f6267-16f3-47bb-b6e4-7dc8067a95d6")
-		)
-		(pin "8"
-			(uuid "5fe8d9d4-07d2-4242-ba9b-1f67043931c1")
 		)
 		(pin "4"
-			(uuid "cda2075d-2305-44f8-95f2-0fe58f620f19")
-		)
-		(pin "33"
-			(uuid "714598fe-1ba2-4651-9b05-04473487f5c4")
-		)
-		(pin "34"
-			(uuid "2ad11b66-e5b8-4a68-b904-e9d904aa41f1")
-		)
-		(pin "23"
-			(uuid "17d5e73d-64e8-44d8-9099-f03f33642db8")
-		)
-		(pin "43"
-			(uuid "0f839f34-72e3-4733-ad09-4ff83bcdc944")
-		)
-		(pin "2"
-			(uuid "bfbf298b-a302-4d9f-b4d5-818c4d01b9f3")
-		)
-		(pin "40"
-			(uuid "11cc05a9-0480-4510-81d6-bbd8e414d8a2")
-		)
-		(pin "S3"
-			(uuid "69ede726-bc3a-440e-bc44-056c1c6dde42")
+			(uuid "77167309-dc54-421e-a9f7-7ccbc9f2f2b1")
 		)
 		(pin "1"
-			(uuid "86011c48-a4d3-4a9d-bd93-086a208a1083")
+			(uuid "5a770f28-fa31-4873-b38f-68c12bc7bce0")
 		)
-		(pin "S1"
-			(uuid "8017a0f0-e844-42ec-a4c8-9dc1daba3597")
-		)
-		(pin "42"
-			(uuid "0cb002df-df80-446f-971f-9c5941a2c11e")
-		)
-		(pin "38"
-			(uuid "21c9c467-4026-4cd7-97be-e0558d3e0f71")
-		)
-		(pin "27"
-			(uuid "a3101e16-59b2-451a-9f56-b9ac98852066")
-		)
-		(pin "19"
-			(uuid "9cbaace0-15a9-417f-be82-46e24ccb3438")
-		)
-		(pin "24"
-			(uuid "d50c9f01-d37e-4167-a01b-c700789289c3")
-		)
-		(pin "36"
-			(uuid "5b47cdaf-0cd3-4388-8ab6-7abec4b62a11")
-		)
-		(pin "32"
-			(uuid "d261f871-0a32-435d-8cf1-cda0a36b0dbe")
-		)
-		(pin "35"
-			(uuid "f47a600b-52d6-4f7d-8bcb-b65f71210bcf")
-		)
-		(pin "37"
-			(uuid "f91ae3d8-54f0-4918-af1f-7f842bde61d2")
-		)
-		(pin "39"
-			(uuid "0e954e6f-4039-4916-ba67-8dd1362c5fe2")
-		)
-		(pin "7"
-			(uuid "ea5dea57-6e6d-4cea-90a0-d30af45c1978")
-		)
-		(pin "44"
-			(uuid "b2d67311-f462-4f9d-8df3-f2964b5be561")
-		)
-		(pin "17"
-			(uuid "43977d97-7e88-4794-be06-45df429e4621")
-		)
-		(pin "10"
-			(uuid "bc0194d1-6c00-4c59-8fe6-b8c4c2a13835")
+		(pin "5"
+			(uuid "b8245cae-b4b2-4895-83f6-c8b9c7c4cf3f")
 		)
 		(pin "3"
-			(uuid "ce1e3cf0-2de5-466d-9e45-1665b66d9163")
+			(uuid "33ca3ebc-0aae-42e4-a716-e89b409df3df")
 		)
-		(pin "28"
-			(uuid "1c21abd8-eec7-4411-a767-0a899a179c0e")
-		)
-		(pin "25"
-			(uuid "309d344b-3be1-4d03-a4e7-d81e7034eca2")
-		)
-		(pin "18"
-			(uuid "0dc0fdfb-17a5-423e-a902-ae0af5b0b89f")
-		)
-		(pin "30"
-			(uuid "732ab0f9-4ee9-421c-87d7-c0d4a5611ee3")
-		)
-		(pin "31"
-			(uuid "dd957226-a126-4d1f-a0f4-26b569d3fc71")
-		)
-		(pin "29"
-			(uuid "a7be41e5-1e0e-4cb0-9cd0-dcf32b188277")
-		)
-		(pin "26"
-			(uuid "e36df9cc-171c-42c7-bb6a-79aca463cd0e")
-		)
-		(pin "20"
-			(uuid "d2fbb54a-4c64-4b56-9c0c-330786e4218f")
-		)
-		(pin "S2"
-			(uuid "0b6dd78e-a126-486b-9200-0578046cb29d")
-		)
-		(pin "14"
-			(uuid "7a330880-58fb-4e1b-8b75-e84710906769")
-		)
-		(pin "15"
-			(uuid "6da44420-4966-4384-897e-f7282d02dc68")
-		)
-		(pin "9"
-			(uuid "32d113a1-c602-42e9-a677-24b5470177f5")
-		)
-		(pin "12"
-			(uuid "911035db-acbd-4cdb-abce-e634cfcc965a")
+		(pin "2"
+			(uuid "7c84c6d1-5b7f-4c9d-88cf-d23cd1e7fdfc")
 		)
 		(instances
 			(project "shield_raspi"
 				(path "/e4abb759-29ce-48bd-9fdf-5b8f8ce52e5b"
-					(reference "U1")
+					(reference "UART_3")
 					(unit 1)
 				)
 			)
@@ -7531,16 +6296,16 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 158.75 97.79 0)
+		(at 81.28 133.35 90)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ee0c6901-99b5-4171-9562-3ca10da158e7")
-		(property "Reference" "H2"
-			(at 161.29 96.5199 0)
+		(uuid "ecb3cd26-cd36-4c26-af22-5bbf17301e77")
+		(property "Reference" "H5"
+			(at 80.0099 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7549,7 +6314,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 161.29 99.0599 0)
+			(at 82.5499 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7559,7 +6324,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 158.75 97.79 0)
+			(at 81.28 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7568,7 +6333,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 158.75 97.79 0)
+			(at 81.28 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7577,7 +6342,72 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 158.75 97.79 0)
+			(at 81.28 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "shield_raspi"
+				(path "/e4abb759-29ce-48bd-9fdf-5b8f8ce52e5b"
+					(reference "H5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 88.9 124.46 90)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ee0c6901-99b5-4171-9562-3ca10da158e7")
+		(property "Reference" "H2"
+			(at 87.6299 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 90.1699 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 88.9 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 88.9 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7656,80 +6486,6 @@
 			(project "shield_raspi"
 				(path "/e4abb759-29ce-48bd-9fdf-5b8f8ce52e5b"
 					(reference "BTN_1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x04_Pin")
-		(at 129.54 109.22 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f5624255-d354-4e84-aeab-b36b5ed5787f")
-		(property "Reference" "UART_4"
-			(at 130.175 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x04_Pin"
-			(at 130.175 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
-			(at 129.54 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 129.54 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 129.54 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8bfc5d85-e6cc-4f40-97ae-20ffaa8e7633")
-		)
-		(pin "1"
-			(uuid "b694ceec-d37d-44eb-bfa4-780503ff8802")
-		)
-		(pin "4"
-			(uuid "87ba3bdf-0ed0-4a59-b31c-17a1c8b4ec5f")
-		)
-		(pin "3"
-			(uuid "7a724cdb-7165-4aea-a655-6cf1db14192f")
-		)
-		(instances
-			(project "shield_raspi"
-				(path "/e4abb759-29ce-48bd-9fdf-5b8f8ce52e5b"
-					(reference "UART_4")
 					(unit 1)
 				)
 			)
